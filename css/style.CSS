@@ -1,0 +1,38 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    height: 800px;
+    text-align: center;
+    color: white;
+    font-size: 150px;
+    font-weight: 500px;
+}
+header{
+    background-color: whitesmoke;
+    font-size: 30px;
+    color: black;
+    font-family: monospace;
+    font-weight: 500;
+}
+.xo{
+    width: 70%;
+    height: 700px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    justify-content: space-between;
+    background-color: rgb(43, 241, 56);
+    flex-wrap: wrap;
+}
+.box{
+width: 350px;
+height: 220px;
+background-color: rgb(255, 0, 204)
+}
+.box:hover{
+    background-color: #222;
+}
